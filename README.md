@@ -1,4 +1,4 @@
-# Prproject-1-maven-integration
+# project-1-maven-integration
 ### Step3: Install and Configure Maven in Jenkins Server
 
 - We need to install MAVEN in Jenkins server. 
