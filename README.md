@@ -31,7 +31,7 @@ export PATH
 ```sh
 Name = FirstMavenProject
 Type: Maven Project
-URL: https://github.com/nileshlip/hello-world-Projects.git
+URL: https://github.com/nileshlip/mvn-dynamic-web-app-template.git
 Root Pom: pom.xml
 Goals and options: clean install
 Save -> Build Now
