@@ -1,5 +1,5 @@
 # project-1-maven-integration
-### Step3: Install and Configure Maven in Jenkins Server
+### Step1: Install and Configure Maven in Jenkins Server
 
 - We need to install MAVEN in Jenkins server. 
 
@@ -22,7 +22,7 @@ export PATH
 ```
 - To apply the changes we have made to .bash_profile, either we can logout and log back in or run `source .bash_profile` command. It will upload the changes.
 
-### Step4: Integrate Maven with Jenkins
+### Step2: Integrate Maven with Jenkins
 
 - Now go to `Manage Jenkins` and `Global Tool Configuration` to add path fofr Java and Maven.
 
