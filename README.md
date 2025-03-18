@@ -4,6 +4,8 @@
 - We need to install MAVEN in Jenkins server. 
 
 ```sh
+sudo apt update
+sudo apt install fontconfig openjdk-17-jre -y  
 cd /opt
 sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz 
 tar -xvzf apache-maven-3.9.6-bin.tar.gz
