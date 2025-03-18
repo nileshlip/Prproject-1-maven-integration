@@ -14,7 +14,7 @@ mv apache-maven-3.9.6 maven
 
 - Next configure `M2_HOME` and `M2`(binary directory) environment variables and add them to the `PATH` so that we can run `maven` commands in any directory. You can search where is your JVM by using t`find / -name java-11*`
 
-- Now you need to edit .bash_profile to add these variables to path and save 
+- Now you need to edit `nano ~/.profile` to add these variables to path and save 
 ```sh
 M2_HOME=/opt/maven
 M2=/opt/maven/bin
