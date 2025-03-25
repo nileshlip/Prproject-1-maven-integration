@@ -22,7 +22,7 @@ JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 PATH=$PATH:$HOME/bin:$M2_HOME:$M2:$JAVA_HOME
 export PATH
 ```
-- To apply the changes we have made to .bash_profile, either we can logout and log back in or run `source .bash_profile` command. It will upload the changes.
+- To apply the changes we have made to .bash_profile, either we can logout and log back in or run `source ~/.profile` command. It will upload the changes.
 
 ### Step2: Integrate Maven with Jenkins
 
