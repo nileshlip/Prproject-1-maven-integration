@@ -7,9 +7,9 @@
 sudo apt update
 sudo apt install fontconfig openjdk-17-jre -y  
 cd /opt
-sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz 
-tar -xvzf apache-maven-3.9.6-bin.tar.gz
-mv apache-maven-3.9.6 maven
+wget https://dlcdn.apache.org/maven/maven-3/3.9.10/binaries/apache-maven-3.9.10-bin.tar.gz
+tar -xvzf apache-maven-3.9.6-bin.tar.gz 
+mv apache-maven-3.9.10 maven
 ```
 
 - Next configure `M2_HOME` and `M2`(binary directory) environment variables and add them to the `PATH` so that we can run `maven` commands in any directory. You can search where is your JVM by using t`find / -name java-11*`
