@@ -8,7 +8,7 @@ sudo apt update
 sudo apt install fontconfig openjdk-17-jre -y  
 cd /opt
 wget https://dlcdn.apache.org/maven/maven-3/3.9.10/binaries/apache-maven-3.9.10-bin.tar.gz
-tar -xvzf apache-maven-3.9.6-bin.tar.gz 
+tar -xvzf apache-maven-3.9.10-bin.tar.gz 
 mv apache-maven-3.9.10 maven
 ```
 
@@ -29,6 +29,15 @@ export PATH
 - Now go to `Manage Jenkins` and `Global Tool Configuration` to add path fofr Java and Maven.
 
 - We can configure a `Maven Project` to build our Code, go to `Dashboard` -> `NewItem`
+```
+sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
+  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]" \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt-get update
+sudo apt-get install jenkins
+```sh
 
 ```sh
 Name = FirstMavenProject
